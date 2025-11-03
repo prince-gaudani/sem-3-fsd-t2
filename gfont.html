@@ -68,7 +68,7 @@
 </html> -->
 
 <!-- pseudo class -->
- <html>
+ <!-- <html>
     <head>
         <style>
             input:focus{background-color:aqua;}
@@ -77,4 +77,31 @@
     <body>
         <input type="text">
     </body>
+ </html> -->
+
+ <html>
+    <head>
+        <style>
+            a:link{color:rgb(235, 16, 16);}
+            a:visited{color: green;}
+            a:hover{color:pink;}
+            a:active{color:yellow;}
+
+            div span:nth-child(2){color:violet} 
+              div span{color:violet}   
+                div span:not(.a1){color:blueviolet}  
+
+               /* input:checked+label{color:green} - not in sylabus*/
+        </style> 
+    </head>
+    <body>
+        <a href="http://www.google.com" target="_blank">Visit Google</a> <br>
+         <div>abc <span>Hello</span>pqr <span class="a1">Good morning</span> def <span>Be happy</span> </div> 
+         <!-- <p> - not in sylabus
+            <input type="checkbox" id="agreed">
+            <label for="agreed">I agree to condition</label>
+         </p> -->
+    </body>
  </html>
+
+ 
