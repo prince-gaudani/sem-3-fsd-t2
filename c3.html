@@ -1,0 +1,94 @@
+<!-- # types of selectors -->
+<!-- 1.element - internal,external etc.-->
+<!-- 2.id selectors (#)-->
+<!-- 
+  <html>
+    <head>
+        <style>
+            #p1{color:blue}
+        </style>
+    </head>
+    <body>
+        <p>para 1</p>
+        <p id="p1">para 2</p>
+        <h1 id="p1">Heading</h1>
+    </body>
+  </html>
+
+   multiple id
+   <html> 
+    <head>
+        <style> 
+        #p1{color:rgb(0, 219, 164)}
+        #p2{background-color:rgb(177, 250, 250)}
+         </style>
+    </head>
+    <body>
+        <p>Para 1</p>
+        <p id="p1 p2"> Para 2</p>
+        <h1 id="p1"> Heading</h1>
+    </body>
+  </html> -->
+
+  <!-- 3. class selectors (.) -->
+  <!-- <html>
+    <head>
+        <style> 
+        .c1{color:rgb(0, 219, 164)}
+        .c2{background-color:rgb(177, 250, 250)}
+         </style>
+    </head>
+    <body>
+        <p>Para 1</p>
+        <p class="c1 c2"> Para 2</p>
+        <h1 class="c1"> Heading</h1>
+    </body>
+  </html> -->
+
+  <!-- 4. universal selector (*) -->
+  <!-- <html>
+    <head>
+        <style> 
+        *{color:rgb(0, 219, 164)}
+         </style>
+    </head>
+    <body>
+        <p>  Para 1  </p>
+        <p>  Para 2  </p>
+        <h1> Heading </h1>
+    </body>
+  </html>  -->
+
+  <!-- 5. descendant selector - nested -->
+   <!-- <html>
+    <head>
+        <style> 
+        /* parent child{ } */
+        ul b{color:rgb(224, 92, 92)}
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li> abc</li>
+            <li><b>pqr</b></li>
+            <li><b><i>xyz</i></b></li>
+            <b>def</b>
+        </ul>
+        <b>bold</b>
+    </body>
+  </html>  -->
+
+  <!-- 6.child selector - direct parent-child -->
+   <html>
+    <head>
+        <style> 
+            p>span{color:aqua}
+         </style>
+    </head>
+    <body>
+        <p>Para 1</p>
+        <span>span 1</span>
+        <p>abc <span>span in para</span> abcd</p>
+        <p><b><span>nested span in para</span></b></p>
+    </body>
+  </html> 
