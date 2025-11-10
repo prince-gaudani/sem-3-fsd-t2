@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <style>
+         :root{--b:blue;--a:limegreen;--c:blue}    /* global variable -in root */
+            /* p{color:var(--b)}     /* local variable */
+            /* h1{color:var(--a)} */
+            /* p{--m:red;color: var(--m);} */
+            /* h1{color: var(--m);background-color: var(--a);} */
+            p{--c:green;color:var(--c);}
+            h1{color: var(--c);}
+        </style>
+    </head>
+    <body>
+        <p>This is Paragraph</p>
+        <h1>Heading</h1>
+    </body>
+</html>
